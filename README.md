@@ -16,6 +16,16 @@ Save the world is a web app that allow users to mark in a map a polluted place t
 11. [react-bootstrap](https://react-bootstrap.github.io/): The most popular front-end framework Rebuilt for React.
 12. [react-bootstrap-icons](https://www.npmjs.com/package/react-bootstrap-icons): The brand new Bootstrap Icons library to use as React components.
 
+## How To Use
+
+1. run `git clone https://github.com/cs-fedy/save-the-world.git` to clone the repo.
+2.  now cd to it: `cd save-the-world`.
+3. run `npm install` command on backend directory to install all used packages.
+4. rename `.env.sample` to `.env` and add your settings.
+5. run `npm run dev` to start the backend server.
+6. now run `npm install` command on frontend directory to install all frontend used packages.
+7. type `npm start` to start the app.
+
 ## Author:
 **created at 🌙 with 💻 and ❤ by me fedy abdouli**
 * **Fedi abdouli** - **save the world** - [fedi abdouli](https://github.com/cs-fedy)

@@ -15,6 +15,7 @@ Save the world is a web app that allow users to mark in a map a polluted place t
 10. [react-map-gl](https://visgl.github.io/react-map-gl/): react-map-gl makes using Mapbox GL JS in React applications easy.
 11. [react-bootstrap](https://react-bootstrap.github.io/): The most popular front-end framework Rebuilt for React.
 12. [react-bootstrap-icons](https://www.npmjs.com/package/react-bootstrap-icons): The brand new Bootstrap Icons library to use as React components.
+13. [react-router-dom](https://www.npmjs.com/package/react-router-dom): DOM bindings for React Router.
 
 ## How To Use
 

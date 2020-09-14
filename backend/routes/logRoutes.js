@@ -8,7 +8,7 @@ const { update } = require("../models/log");
 logRouter.get("/", (req, res) => {
   logSchema.find({}, (err, result) => {
     if (err) return res.json(500).json({ msg: "error while getting logs" });
-    return res.status(200).json({ logs: result });
+    return res.status(200).json({ postedLogs: result });
   });
 });
 

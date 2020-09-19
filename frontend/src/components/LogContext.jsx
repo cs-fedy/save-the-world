@@ -31,7 +31,7 @@ export const LogProvider = ({ children }) => {
 
   return (
     <LogContext.Provider value={{ viewport, setViewport }}>
-      {children}
+      { children }
     </LogContext.Provider>
   );
 };

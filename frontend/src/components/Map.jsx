@@ -4,13 +4,14 @@ import ReactMapGL from "react-map-gl";
 
 const Map = () => {
   const { viewport, setViewport } = useContext(LogContext);
-  const TOKEN = "pk.eyJ1IjoiZmVkaTAxIiwiYSI6ImNrZjJyNWN2aDA1ODUyc2syejZweTliY2cifQ.ldSDAXVejMFdccsUL_oIwQ";
+  console.log(viewport);
+  const TOKEN = "react-map-gl-token";
   return (
-    <div className="App">
+    <div className="mt-3">
       <ReactMapGL
         {...viewport}
         mapboxApiAccessToken={TOKEN}
-        onViewportChange={(nextViewport) => setViewport(nextViewport)}
+        onViewportChange={nextViewport => setViewport(nextViewport)}
       />
     </div>
   );

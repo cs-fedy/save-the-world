@@ -12,6 +12,7 @@
     "react-bootstrap-icons": "^1.0.0",
     "react-dom": "^16.13.1",
     "react-map-gl": "^5.2.8",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
